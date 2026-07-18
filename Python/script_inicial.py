@@ -1,5 +1,3 @@
-
-
 Valor_dolar = 1
 
 Pesos_valor =  924.5
