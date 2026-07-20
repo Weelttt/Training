@@ -17,7 +17,9 @@ while True:
     elif eleccion_usuario == 2:
         tareas_usuario.append(input("\nAgregue su tarea:"))
     elif eleccion_usuario == 3:
-        print()
+        for indice, tarea in enumerate(tareas_usuario, start=1):
+             print("\n", indice, tarea)
+        tareas_usuario.pop(-1, input("\nSeleccione que tarea desea eliminar:"))
     elif eleccion_usuario == 4:
         print()
         break
